@@ -1,0 +1,46 @@
+:root {
+
+}
+
+html, body {
+background: #1e1e1e;
+color: ghostwhite;
+font-family: 'Proxima Nova', sans-serif;
+padding: 0;
+margin: 0;
+}
+
+
+
+nav {
+position: sticky;
+width: 100%;
+padding: 10px 0px;
+}
+
+.nav-content {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+gap: 1
+0px;
+align-items: center;
+}
+
+.nav-item {
+flex-basis: 0;
+color: white;	
+text-decoration: none;
+}
+
+
+.nav-item-1 {
+flex: 2;
+font-size: 1.6rem;
+padding: 0px 20px;
+}
+
+.nav-item-3 {
+padding: 0px 20px;
+}
